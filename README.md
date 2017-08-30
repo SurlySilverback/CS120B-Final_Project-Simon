@@ -12,3 +12,9 @@ The board will flash LEDs in increasingly complex sequences. You must repeat the
 The game contains failsafes to prevent cheating: only one button press is permitted at any time, and the game will always register the first button it detected as the intended entry.
 
 Pressing Start button from either the win state or the lose state will return the game to the welcome screen. Pressing Start again will initiate a new game with a different randomly-generated sequence.
+
+Components used:
+- AVR Studio 6.0
+- ATmega1284 microcontroller
+- Hand-soldered LCD screen
+- All individual components (resistors, speaker, etc) provided in IEEE embedded systems kit
